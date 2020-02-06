@@ -85,20 +85,8 @@ class UserController extends Controller
     	}
     	echo "欢迎来到个人中心";
     }
-    public function wishlist()
-    {
-    	return view("wishlist");
-    }
-    public function cart()
-    {
-    	return view("cart");
-    }
     public function contact()
     {
     	return view("contact");
-    }
-    public function product_list()
-    {
-    	return view("product_list");
     }
 }

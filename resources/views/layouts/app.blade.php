@@ -65,7 +65,7 @@
 			<div class="col s4">
 				<div class="bar-center">
 					<a href="#animatedModal" id="cart-menu"><i class="fa fa-shopping-basket"></i></a>
-					<span>2</span>
+					<span>8</span>
 				</div>
 			</div>
 			<div class="col s2">
@@ -97,7 +97,7 @@
 						</a>
 					</div>
 					<div class="col s4">
-						<a href="product_list" class="button-link">
+						<a href="product-list" class="button-link">
 							<div class="menu-link">
 								<div class="icon">
 									<i class="fa fa-bars"></i>
@@ -107,7 +107,7 @@
 						</a>
 					</div>
 					<div class="col s4">
-						<a href="shop-single.html" class="button-link">
+						<a href="/shop-single" class="button-link">
 							<div class="menu-link">
 								<div class="icon">
 									<i class="fa fa-eye"></i>

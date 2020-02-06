@@ -22,11 +22,13 @@ Route::post("/user/login","Index\UserController@doLogin");//登录
 Route::get("/user/center","Index\UserController@center");//个人中心
 
 
+Route::get("shop-single","Goods\GoodsController@shop_single");//商品详情
+Route::get("product-list","Goods\GoodsController@product_list");//商品列表
+
+Route::get("cart","Cart\CartController@index");//加入购物车
+Route::get("checkout","Cart\CartController@checkout");//购物车结算
+Route::get("wishlist","Cart\CartController@wishlist");//收藏列表
 
 
+Route::get("contact","Index\UserController@contact");//联系
 
-
-Route::get("wishlist","Index\UserController@wishlist");//登录
-Route::get("cart","Index\UserController@cart");//登录
-Route::get("contact","Index\UserController@contact");//登录
-Route::get("product_list","Index\UserController@product_list");//登录
